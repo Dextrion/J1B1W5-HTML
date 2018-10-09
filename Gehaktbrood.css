@@ -26,7 +26,7 @@ body {
 	list-style-type: none;
 	background-color: black;
 }
-.menu2 { 
+.menu1>li { 
 	display: inline-block;
 	margin: 15px;
     padding: 5px;
