@@ -4,30 +4,29 @@
 }
 
 body {
-
+	font-size: 20px;
+	line-height: 26px;
+	font-family: 'Roboto', sans-serif;
 }
 .div {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin: 0 auto;
 	width: 60%;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
+	height: 100%;	
 	text-align: left;
 }
 .menu1 {
 	border-radius: 5px;
 	font-size: 25px;
 	color: white;
-	display: inline;
 	border-style: solid;
     border-color: yellow;
 	display: inline-block;
 	list-style-type: none;
 	background-color: black;
 }
-.menu2 {
-	font-family: 'Roboto', sans-serif;
+.menu2 { 
 	display: inline-block;
 	margin: 15px;
     padding: 5px;
@@ -42,11 +41,12 @@ a:link {
 	color: white;
 }
 a:hover {
-	color: blue;
+	color: gray;
 }
 h1 {
+	border-bottom: solid;
 	margin-top: 20px;
-	font-family: 'Roboto', sans-serif;
+	padding-bottom: 20px;
 	font-size: 36px;
 	line-height: 36px;	 
 }
@@ -55,19 +55,8 @@ h2 {
 	font-size: 32px;
 	line-height: 32px;
 }
-h3 {
-	margin-top: 40px;
-	font-size: 32px;
-	line-height: 32px;
-}
-h4 {
-	margin-top: 40px;
-	font-size: 32px;
-	line-height: 32px;
-}
 .intro {
-	margin-top: 40px;
-	border-top: 1px solid black;
+	margin-top: 20px;
 	text-align: left;
 	font-size: 24px;
 	line-height: 32px;
