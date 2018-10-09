@@ -60,7 +60,12 @@ h3 {
 	font-size: 32px;
 	line-height: 32px;
 }
-.p1 {
+h4 {
+	margin-top: 40px;
+	font-size: 32px;
+	line-height: 32px;
+}
+.intro {
 	margin-top: 40px;
 	border-top: 1px solid black;
 	text-align: left;
@@ -70,13 +75,14 @@ h3 {
 ul {
 	margin-top: 40px;
 }
+
+ul>li {
+	margin-bottom: 10px;
+}
 ol {
 	margin-top: 40px;
 }
-.ingre {
-	margin-bottom: 10px;
-}
-.bereid {
+ol>li {
 	margin-bottom: 20px;
 }
 .tip {
